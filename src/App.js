@@ -1,25 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import ExpensiveCalculation from './component/ExpensiveCalculation';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<h1>useMemo() use cases and examples</h1>
+			<br />
+			<ExpensiveCalculation />
+		</div>
+	);
 }
 
 export default App;
